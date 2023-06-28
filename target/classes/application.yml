@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgresql-credominute.alwaysdata.net/credominute_mercadona_bdd
+    password: oTvw10jUDkTWqfVP
+    username: credominute_mercadona
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
