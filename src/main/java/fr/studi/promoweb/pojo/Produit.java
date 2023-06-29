@@ -23,8 +23,18 @@ public class Produit {
 
     private String image;
 
+    public Produit(String libele1, String description, Float prix, String image) {
+        this.libele1 = libele1;
+        this.description = description;
+        this.prix = prix;
+        this.image = image;
+    }
+
     @ManyToOne
     @JoinColumn(name = "categorie_id")
     private Categorie categorie;
 
+    public Produit() {
+
+    }
 }
