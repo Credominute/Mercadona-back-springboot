@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
 @RequestMapping(ApiRegistration.API_REST
         +ApiRegistration.ADMIN)
-@RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class AdminWs {
 
     @Autowired

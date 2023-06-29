@@ -10,16 +10,13 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
-class PromotionTests {
+public class PromowebApplicationTest {
 
-	// SmokeTest : verification que le contrôleur rest fonctionne.
-	// Test unitaire : test d'un composant
 	// Mock : simulation d'une requête HTTP (CRUD API sur éléments)
 
 	private MockMvc mockMvc;
