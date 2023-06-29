@@ -21,7 +21,13 @@ public class Promotion {
 
     private LocalDate dateFin;
 
-    private Long pourcentageRemise;
+    private Long pourcentRemise;
+
+    public Promotion(LocalDate dateDebut, LocalDate dateFin, Long pourcentRemise) {
+        this.dateDebut = dateDebut;
+        this.dateFin = dateFin;
+        this.pourcentRemise = pourcentRemise;
+    }
 
     @OneToOne
     @JoinColumn(name = "produit_id")
