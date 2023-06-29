@@ -17,7 +17,7 @@ public class Categorie {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @NotNull
-    private Long categorie_id;
+    private int categorie_id;
 
     private String libele2;
 

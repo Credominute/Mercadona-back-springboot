@@ -10,6 +10,7 @@ import java.util.List;
 
 @RequestMapping(ApiRegistration.API_REST
         +ApiRegistration.PRODUIT)
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class ProduitWs {
 
