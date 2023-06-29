@@ -18,6 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 class PromotionTests {
 
+	// SmokeTest : verification que le contrôleur rest fonctionne.
 	// Test unitaire : test d'un composant
 	// Mock : simulation d'une requête HTTP (CRUD API sur éléments)
 

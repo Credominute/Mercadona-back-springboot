@@ -1,0 +1,35 @@
+spring:
+  datasource:
+      url: jdbc:postgresql://postgresql-credominute.alwaysdata.net/credominute_mercadona_bdd
+      password: oTvw10jUDkTWqfVP
+      username: credominute_mercadona
+      driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+management:
+    endpoints:
+      web:
+        exposure:
+          include: 'x'
+
+springdoc:
+    swagger-ui:
+      path: /swagger-ui.html
+    api-docs:
+        path: /v3/api-docs
+
+security:
+    jwt:
+      secret-key: $2y$10$3yI7ndB87siCPQ9fGuolyuvu5kIB0qpF5Vxn5m/6aEtnqRbw7t.ry
+      expiration: 86400000 # a day
+      refresh-token:
+          expiration: 604800000 # 7 days
+
+
