@@ -10,6 +10,9 @@
         <module name="promoweb" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="promoweb" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
