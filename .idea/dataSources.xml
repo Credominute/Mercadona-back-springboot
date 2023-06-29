@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres@postgresql-credominute.alwaysdata.net" uuid="378c2cfe-cc87-4d32-9812-6cfc44ba824f">
+    <data-source source="LOCAL" name="postgres@postgresql-credominute.alwaysdata.net" uuid="35881eef-f1b8-46f4-9f5e-e39f085e501f">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
